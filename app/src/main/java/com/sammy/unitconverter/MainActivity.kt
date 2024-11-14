@@ -221,7 +221,7 @@ fun UnitConverter() { //Start of Function
 
         // Here all the UI elements will be stacked beside each other in the app
         Spacer(modifier = Modifier.height(16.dp))
-        Text(text = "Result: $outputValue $outputUnit",
+        Text(text = "Result: $outputValue $outputUnit $inputValue",
             style = MaterialTheme.typography.headlineMedium)
     }// End of Column
 }
